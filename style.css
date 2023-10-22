@@ -61,7 +61,7 @@ header{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding-top: 6rem;
+    padding-top: 5rem;
 }
 
 .pg_in h2{
@@ -73,5 +73,6 @@ header{
 }
 
 .pg_in img{
+    margin-top: 3rem;
     height: 160px;
 }
