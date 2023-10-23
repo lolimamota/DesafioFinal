@@ -76,3 +76,9 @@ header{
     margin-top: 3rem;
     height: 160px;
 }
+
+/* @media (min-width:200px) and (max-width:1800px){
+    .titulo{
+        width: clamp(200px 20vw 1800px);
+    }
+} */
