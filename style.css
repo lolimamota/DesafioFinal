@@ -77,8 +77,14 @@ header{
     height: 160px;
 }
 
-/* @media (min-width:200px) and (max-width:1800px){
-    .titulo{
-        width: clamp(200px 20vw 1800px);
-    }
-} */
+.dog_Leao{
+    width: 100%;
+    height: 120vh;
+    background-image: url(./image/cachorrinho_leao.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+}
