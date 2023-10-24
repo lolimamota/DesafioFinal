@@ -30,7 +30,7 @@ header{
     width: 50px;
 }
 
-.list_Nav{
+.listNav{
     width: 10vw;
     list-style-type: none;
     display: flex;
@@ -38,11 +38,11 @@ header{
     align-items: center;
 }
 
-.list_Nav img{
+.listNav img{
     width: 30px;
 }
 
-.dog_Chapeu{
+.dogChapeu{
     width: 100%;
     height: 120vh;
     background-image: url('./image/cachorrinho_chapéu_m.png');
@@ -54,7 +54,7 @@ header{
     justify-content: center;
 }
 
-.pg_in{
+.pgIn{
     width: 60%;
     height: 50vh;
     display: flex;
@@ -64,7 +64,7 @@ header{
     padding-top: 5rem;
 }
 
-.pg_in h2{
+.pgIn h2{
     font-size: 5rem;
     color: #fff;
     text-align: center;
@@ -72,12 +72,12 @@ header{
 
 }
 
-.pg_in img{
+.pgIn img{
     margin-top: 3rem;
     height: 160px;
 }
 
-.dog_Leao{
+.dogLeao{
     width: 100%;
     height: 120vh;
     background-image: url(./image/cachorrinho_leao.png);
@@ -90,21 +90,21 @@ header{
     justify-content: center;
 }
 
-.dog_Leao h2{
+.dogLeao h2{
     margin-bottom: 1rem;
     width: 30vw;
     font-size: 3em;
     color: #3A342F;
 }
 
-.dog_Leao p{
+.dogLeao p{
     margin-bottom: 1rem;
     width: 25vw;
     font-size: 2em;
     color: #3A342F;
 }
 
-.align_text{
+.alignText{
     margin: 15em 40em 0 0;
 }
 
@@ -116,4 +116,16 @@ button{
     background-color: #3A342F;
     color: #f4f2f3;
     margin-top: 1rem;
+}
+
+.dogLado{
+    width: 100%;
+    height: 120vh;
+    background-image: url(./image/cachorrinho_lado.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
 }
