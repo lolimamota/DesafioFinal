@@ -44,10 +44,12 @@ header{
 }
 
 .dogChapeu{
-    object-fit: contain;
-    background-image: url('./image/cachorrinho_chapéu_m.png');
+    width: 100%;
+    height: 120vh;
+    background-image: url('./image/cachorrinho_chapéu.png');
+    background-position: bottom;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vmax;
     display: flex;
     align-items:flex-start;
     justify-content: center;
@@ -60,8 +62,7 @@ header{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding-top: 5rem;
-    margin-left: 2em;
+    padding-top: 4rem;
 }
 
 .divDogChapeu h2{
@@ -73,8 +74,8 @@ header{
 }
 
 .divDogChapeu img{
-    margin-top: 3rem;
-    height: 160px;
+    margin-top: 2rem;
+    height: 150px;
 }
 
 .dogLeao{
@@ -129,7 +130,7 @@ header{
     border-color: #fff;
     background-color: #fff;
     color: #000;
-    margin-top: 1rem;
+    margin-right: 4rem;
 }
 
 /* FIM DA FORMATAÇÃO DE BOTÔES */
@@ -146,5 +147,23 @@ header{
 }
 
 .divDogLado{
-    border: ;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.divDogLado h2{
+    margin-bottom: 1rem;
+    font-size: 4em;
+    color: #fff;
+}
+
+.divDogLado p{
+    margin-bottom: 1rem;
+    font-size: 2em;
+    color: #ffF;
 }
