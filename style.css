@@ -44,7 +44,6 @@ header{
 }
 
 .dogChapeu{
-    width: 100%;
     height: 120vh;
     background-image: url('./image/cachorrinho_chapéu.png');
     background-position: bottom;
